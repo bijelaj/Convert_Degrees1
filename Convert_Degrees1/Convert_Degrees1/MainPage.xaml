@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Convert_Degrees1"
+             x:Class="Convert_Degrees1.MainPage">
+
+    <StackLayout
+        Padding="20">
+        
+       
+        <Label
+            HorizontalOptions="Center"
+            FontSize="Large"
+            Text="Convert Degrees">
+
+        </Label>
+        <Label
+            Text="Centigrade">
+        </Label>
+        <Entry
+            x:Name="CentigradosEntry"
+            Keyboard="Numeric"
+            Placeholder="Enter degrees centigrade....">
+
+        </Entry>
+        <!--<Button
+            x:Name="ConvertButton"
+            Text="Convert">
+
+        </Button>-->
+        <Label
+            Text="Fahrenheit">
+
+        </Label>
+        <Entry
+            x:Name="FahrenheitEntry"
+            IsEnabled="True"
+            Placeholder="Enter degrees Fahrenheit....">
+        </Entry>
+        <Button
+            x:Name="ConvertButtonC"
+            Text="Convert">
+        </Button>
+    </StackLayout>
+
+
+</ContentPage>
